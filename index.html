@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title text-center mt-2">Calculadora</h1>
+    </header>
+    <main class="main">
+      <section class="numbers">
+        <input type="text" id="result" readonly />
+
+        <button class="btn btn-primary numberbtn">1</button>
+        <button class="btn btn-primary numberbtn">2</button>
+        <button class="btn btn-primary numberbtn">3</button>
+        <button class="btn btn-primary numberbtn">4</button>
+        <button class="btn btn-primary numberbtn">5</button>
+        <button class="btn btn-primary numberbtn">6</button>
+        <button class="btn btn-primary numberbtn">7</button>
+        <button class="btn btn-primary numberbtn">8</button>
+        <button class="btn btn-primary numberbtn">9</button>
+        <button class="btn btn-primary numberbtn">0</button>
+      </section>
+      <section class="operations">
+        <button class="btn btn-secondary operations__item">+</button>
+        <button class="btn btn-secondary operations__item">-</button>
+        <button class="btn btn-secondary operations__item">*</button>
+        <button class="btn btn-secondary operations__item">/</button>
+        <button class="btn btn-secondary operations__item">C</button>
+        <button class="btn btn-secondary operations__item">=</button>
+      </section>
+    </main>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

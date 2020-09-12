@@ -1,0 +1,52 @@
+* {
+  font-family: roboto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 500px;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.numbers {
+  display: grid;
+  grid-template: repeat(5, 1fr) / repeat(3, 1fr);
+  justify-content: center;
+  gap: 1rem;
+}
+#result {
+  grid-column: 1/4;
+  color: #222;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+
+.main:nth-child(10) {
+  grid-column: 1/4;
+}
+
+.numberbtn:nth-of-type(10) {
+  grid-column: 1/4;
+}
+.operations {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.operations__item {
+  margin: 0.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  width: 80px;
+}
+
+.touch {
+  filter: brightness(80%);
+}
