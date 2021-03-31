@@ -54,5 +54,5 @@ $body.addEventListener("keydown", (e) => {
   });
   if (e.keyCode == 8) {
     $result.value = $result.value.slice(0, $result.value.length - 1);} // no funciona
-
+// prueba
 });
